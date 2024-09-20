@@ -1,4 +1,4 @@
--- create a table
+
 CREATE TABLE enrollments ( student_id INT,
 
 course_id INT, enrollment_date DATE,
@@ -61,7 +61,7 @@ INSERT INTO grades (student_id, course_id, grade)
 VALUES (1, 101, 85.5);
 UPDATE grades SET grade=98.8 WHERE student_id = 1 AND course_id = 101;
 select * from grades;
--- Inserting sample enrollments
+
 INSERT INTO enrollments (student_id, course_id, enrollment_date)
 VALUES
     (1, 101, '2023-09-15'),  
